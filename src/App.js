@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  /*
   const [currentTime, setCurrentTime] = useState(0);
 
   useEffect(() => {
@@ -10,6 +11,7 @@ function App() {
       setCurrentTime(data.time)
     });
   }, []);
+  */
 
   return (
     <div className="App">
@@ -26,7 +28,7 @@ function App() {
         >
           Learn React
         </a>
-        <p>The current time is {currentTime}.</p>
+        <p>Thank you for waiting for me Isha.</p>
       </header>
     </div>
   );
